@@ -64,7 +64,7 @@ export const Footer = () => {
                 {data[key].title}
               </div>
               {data[key].items.map((item, index) => (
-                <li key={index} className="mt-3">
+                <li key={index} className="mt-3 cursor-pointer">
                   {item}
                 </li>
               ))}
@@ -76,7 +76,7 @@ export const Footer = () => {
                     </div>
                     {data[key].subSections[subKey].items.map(
                       (subItem, subIndex) => (
-                        <li key={subIndex} className="mt-3">
+                        <li key={subIndex} className="mt-3 cursor-pointer">
                           {subItem}
                         </li>
                       )

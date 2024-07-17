@@ -37,14 +37,14 @@ export const NearMe = () => {
                 {row.map((restaurant, restaurantIndex) => (
                   <div
                     key={restaurantIndex}
-                    className="flex justify-center border border-gray-300 p-3 rounded-2xl w-[270px] h-[52px]"
+                    className="flex justify-center border border-gray-300 p-3 rounded-2xl w-[270px] h-[52px] cursor-pointer"
                   >
                     {restaurant} Restaurant Near Me
                   </div>
                 ))}
                 {rowIndex === chunk(restaurants, 4).length - 1 &&
                   restaurants.length % 4 !== 0 && (
-                    <div className="flex font-bold justify-center border border-gray-300 p-3 rounded-2xl w-[270px] h-[52px]">
+                    <div className="flex font-bold justify-center border border-gray-300 p-3 rounded-2xl w-[270px] h-[52px] cursor-pointer">
                       Show More
                       <RxCaretDown className="w-[22px] h-[22px]" />
                     </div>

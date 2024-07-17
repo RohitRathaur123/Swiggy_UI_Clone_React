@@ -7,8 +7,8 @@ export const DownloadApp = () => {
           <div className="flex justify-evenly items-center text-[25px] font-extrabold text-[#02060cbf] p-4">
             <div>For better experience,download<pre/>the Swiggy app now</div>
             <div className="flex gap-6">
-              <img src="images/play_store.png" alt="playSore" className="w-[200px] h-[64px]"/>
-              <img src="images/app_store.png" alt="AppStore" className="w-[186px] h-[64px]"/>
+              <img src="images/play_store.png" alt="playSore" className="w-[200px] h-[64px] cursor-pointer"/>
+              <img src="images/app_store.png" alt="AppStore" className="w-[186px] h-[64px] cursor-pointer"/>
             </div>
           </div>
       </div>
